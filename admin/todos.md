@@ -1,0 +1,13 @@
+- add stylesheet
+- add layout whick references stylesheet
+- limit layout width
+- add main image
+- add burger
+- add sections
+- add menu
+-
+-
+- create landing page
+- add contact form
+- add favicon
+-
