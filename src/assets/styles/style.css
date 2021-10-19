@@ -1,7 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif");
+
+* {
+  font-family: "PT Serif";
+}
+
 body {
   margin: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Fira Sans";
+}
+
+h2 {
+  font-size: 1.1rem;
+}
+
 html {
   background-color: #333;
+  --black: #09101a;
 }
