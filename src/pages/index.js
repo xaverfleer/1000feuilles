@@ -15,7 +15,7 @@ export default function Page({ data }) {
           alt="Pain de la boulangerie Aux 1000 Feuilles"
           image={getImage(data.file.mainImg)}
         />
-        <div className={styles.headerText}>
+        <div className={styles.header__text}>
           <h1>Aux 1000 Feuilles</h1>
           <h2>Boulangerie – Patisserie – Confiserie</h2>
         </div>
