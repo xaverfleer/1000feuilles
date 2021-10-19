@@ -1,0 +1,20 @@
+{
+  "name": "aux1000feuilles",
+  "version": "0.0.1",
+  "description": "Landing Page for Aux1000Feuilles",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaverfleer/aux1000feuilles.git"
+  },
+  "keywords": [
+    "aux1000feuilles",
+    "landing-page",
+    "bakery"
+  ],
+  "author": "Xaver Fleer",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/xaverfleer/aux1000feuilles/issues"
+  },
+  "homepage": "https://github.com/xaverfleer/aux1000feuilles#readme"
+}
