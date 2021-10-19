@@ -20,6 +20,7 @@ h2 {
 }
 
 html {
-  background-color: #333;
+  background-color: var(--dark-gray);
   --black: #09101a;
+  --dark-gray: #111c2c;
 }
