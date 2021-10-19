@@ -18,6 +18,16 @@ a {
   max-width: 100%;
 }
 
+.section {
+  border-bottom: 3px solid var(--black);
+  padding: 1em;
+  text-align: center;
+}
+
+.section__title {
+  text-transform: uppercase;
+}
+
 .wrapper {
   background-color: #eee;
   margin: 0 auto;
