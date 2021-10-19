@@ -3,16 +3,6 @@ a {
   opacity: 0.8;
 }
 
-.wrapper {
-  background-color: #eee;
-  margin: 0 auto;
-  max-width: 350px;
-}
-
-.img {
-  max-width: 100%;
-}
-
 .header {
   background-color: var(--black);
   padding-bottom: 2em;
@@ -22,4 +12,14 @@ a {
   color: #fff;
   text-align: end;
   padding: 0 1em;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.wrapper {
+  background-color: #eee;
+  margin: 0 auto;
+  max-width: 350px;
 }
