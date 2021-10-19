@@ -23,10 +23,35 @@ a {
   max-width: 100%;
 }
 
+.menu-btn {
+  background: #eee;
+  bottom: 0;
+  cursor: pointer;
+  display: flex;
+  padding: 0.5em;
+  position: fixed;
+  right: 0;
+  text-transform: uppercase;
+}
+
+.menu-btn::after {
+  content: "";
+  background-image: url(../images/menu.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 2em;
+  margin-left: 0.5em;
+  width: 2em;
+}
+
 .section {
   border-bottom: 3px solid var(--black);
-  padding: 1em;
+  padding: 1em 1em 3em;
   text-align: center;
+}
+
+.section:last-of-type {
+  margin-bottom: 5em;
 }
 
 .section__title {
@@ -37,4 +62,5 @@ a {
   background-color: #eee;
   margin: 0 auto;
   max-width: 350px;
+  position: relative;
 }

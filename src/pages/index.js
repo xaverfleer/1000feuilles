@@ -49,6 +49,7 @@ export default function Page({ data }) {
         <div>Grand'Rue 36, 1530 Payerne</div>
         <a href="tel:+41266602224">026 660 22 24</a>
       </footer>
+      <i className={styles.menuBtn}>Menu</i>
     </div>
   );
 }
