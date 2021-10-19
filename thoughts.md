@@ -20,6 +20,8 @@
   - tabs, as there will be a lot of content
 - what to aspire
   - 100% cool
+    - https://noevalleybakery.com/
+    - https://www.gerberwyss.ch/
     - https://www.haberbueni.ch/
   - 50% cool
     - https://www.pouly.ch/
