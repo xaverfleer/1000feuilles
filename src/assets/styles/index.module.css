@@ -4,7 +4,7 @@ a {
 }
 
 .footer {
-  padding: 1rem;
+  padding: 1rem 1rem 4rem;
   text-align: end;
 }
 
@@ -48,10 +48,6 @@ a {
   border-bottom: 3px solid var(--black);
   padding: 1em 1em 3em;
   text-align: center;
-}
-
-.section:last-of-type {
-  margin-bottom: 5em;
 }
 
 .section__title {
