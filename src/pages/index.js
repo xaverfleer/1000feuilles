@@ -18,6 +18,17 @@ export default function Page({ data }) {
           <h2>Boulangerie – Patisserie – Confiserie</h2>
         </div>
       </header>
+      <main>
+        <section className={styles.section}>
+          <h2 className={styles.section__title}>Nos produits</h2>
+        </section>
+        <section className={styles.section}>
+          <h2 className={styles.section__title}>Nos services</h2>
+        </section>
+        <section className={styles.section}>
+          <h2 className={styles.section__title}>Liens utiles</h2>
+        </section>
+      </main>
       <footer>
         <div>Grand'Rue 36, 1530 Payerne</div>
         <a href="tel:+41266602224">026 660 22 24</a>
