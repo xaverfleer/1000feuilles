@@ -5,8 +5,6 @@ import * as styles from "../assets/styles/index.module.css";
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
-import img from "../assets/images/huge-bread.jpg";
-
 export default function Page({ data }) {
   return (
     <div className={styles.wrapper}>
