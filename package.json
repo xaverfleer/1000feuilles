@@ -19,6 +19,10 @@
   "homepage": "https://github.com/xaverfleer/aux1000feuilles#readme",
   "dependencies": {
     "gatsby": "^3.14.3",
+    "gatsby-plugin-image": "^1.14.1",
+    "gatsby-plugin-sharp": "^3.14.1",
+    "gatsby-source-filesystem": "^3.14.0",
+    "gatsby-transformer-sharp": "^3.14.0",
     "react": "^17.0.2"
   }
 }

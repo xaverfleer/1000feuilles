@@ -1,17 +1,19 @@
 import React from "react";
+import { graphql } from "gatsby";
 import "../assets/styles/style.css";
 import * as styles from "../assets/styles/index.module.css";
 
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
+
 import img from "../assets/images/huge-bread.jpg";
 
-export default function Page() {
+export default function Page({ data }) {
   return (
     <div className={styles.wrapper}>
       <header className={styles.header}>
-        <img
+        <GatsbyImage
           alt="Pain de la boulangerie Aux 1000 Feuilles"
-          className={styles.img}
-          src={img}
+          image={getImage(data.file.mainImg)}
         />
         <div className={styles.headerText}>
           <h1>Aux 1000 Feuilles</h1>
@@ -25,3 +27,13 @@ export default function Page() {
     </div>
   );
 }
+
+export const pageQuery = graphql`
+  {
+    file(relativePath: { eq: "huge-bread.jpg" }) {
+      mainImg: childImageSharp {
+        gatsbyImageData(placeholder: BLURRED, width: 350)
+      }
+    }
+  }
+`;
