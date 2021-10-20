@@ -1,11 +1,14 @@
-- add main image
-- add burger
-- add sections
-- add menu
+- add Layout component
+- add heures d'ouverture
+- add button "plus de produits"
+- create favicon
+- couleurs bleues
+- résaux sociaux
 -
 -
 - add layout whick references stylesheet
 - create landing page
 - add contact form
-- add favicon
+- vacances, jours fériés
+- photos du magasin
 -
