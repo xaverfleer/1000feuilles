@@ -44,13 +44,10 @@ export default function Page({ data }) {
           <GatsbyImage alt="Liens utiles" image={getImage(sharpImgs.utiles)} />
         </section>
       </main>
-      <footer className={styles.footer}>
+      <footer className={styles.footer} onClick={closeMenu}>
         <div>Grand'Rue 36, 1530 Payerne</div>
         <a href="tel:+41266602224">026 660 22 24</a>
       </footer>
-      <i className={styles.menuBtn} onClick={toggleMenu}>
-        Menu
-      </i>
       <Menu />
     </div>
   );
