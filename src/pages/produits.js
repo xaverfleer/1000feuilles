@@ -34,10 +34,7 @@ export default function Page({ data }) {
           </Link>
         </section>
       </main>
-      <footer className={styles.footer}>
-        <div>Grand'Rue 36, 1530 Payerne</div>
-        <a href="tel:+41266602224">026 660 22 24</a>
-      </footer>
+      <Footer />
       <Menu />
     </div>
   );

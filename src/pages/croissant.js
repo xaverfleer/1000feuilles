@@ -5,6 +5,7 @@ import * as styles from "../assets/styles/index.module.css";
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Menu from "../components/Menu.js";
 
@@ -38,10 +39,7 @@ export default function Page({ data }) {
           </p>
         </section>
       </main>
-      <footer className={styles.footer}>
-        <div>Grand'Rue 36, 1530 Payerne</div>
-        <a href="tel:+41266602224">026 660 22 24</a>
-      </footer>
+      <Footer />
       <Menu />
     </div>
   );

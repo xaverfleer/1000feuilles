@@ -5,6 +5,7 @@ import * as styles from "../assets/styles/index.module.css";
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Menu from "../components/Menu.js";
 
