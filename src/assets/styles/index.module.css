@@ -14,7 +14,7 @@ a {
 }
 
 .header__text {
-  color: #fff;
+  color: var(--white);
   text-align: end;
   padding: 0 1em;
 }
@@ -23,8 +23,36 @@ a {
   max-width: 100%;
 }
 
+.menu {
+  background: var(--gray--bright);
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  padding: 1em;
+  text-align: end;
+  text-transform: uppercase;
+  transform: translateX(100%);
+  transition: all 0.1s;
+  min-width: 60%;
+}
+
+html[is-menu-open="true"] .menu {
+  transform: none;
+}
+
+.menu__entry {
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.menu__entry:not(:last-of-type) {
+  border-bottom: 3px solid var(--gray);
+}
+
 .menu-btn {
-  background: #eee;
+  background: var(--gray--bright);
+  border-radius: 1px 0 0 0;
   bottom: 0;
   cursor: pointer;
   display: flex;
@@ -32,6 +60,7 @@ a {
   position: fixed;
   right: 0;
   text-transform: uppercase;
+  z-index: 1;
 }
 
 .menu-btn::after {
@@ -39,8 +68,8 @@ a {
   background-image: url(../images/menu.svg);
   background-repeat: no-repeat;
   display: inline-block;
-  height: 2em;
-  margin-left: 0.5em;
+  height: 1.5em;
+  margin-left: 1em;
   width: 2em;
 }
 
@@ -55,7 +84,7 @@ a {
 }
 
 .wrapper {
-  background-color: #eee;
+  background-color: var(--white);
   margin: 0 auto;
   max-width: 350px;
   position: relative;

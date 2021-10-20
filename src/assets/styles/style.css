@@ -23,4 +23,7 @@ html {
   background-color: var(--dark-gray);
   --black: #09101a;
   --dark-gray: #111c2c;
+  --gray: #4c5b70;
+  --gray--bright: #bfc3ca;
+  --white: #eaeaec;
 }
