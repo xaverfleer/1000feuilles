@@ -1,9 +1,12 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 import "../assets/styles/style.css";
 import * as styles from "../assets/styles/index.module.css";
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
+
+import Header from "../components/Header";
+import Menu from "../components/Menu.js";
 
 export default function Page({ data }) {
   const imgs = data.allImgs.nodes;
@@ -24,17 +27,13 @@ export default function Page({ data }) {
 
   return (
     <div className={styles.wrapper}>
-      <header className={styles.header} onClick={closeMenu}>
-        <GatsbyImage alt="Pain délicieux" image={getImage(sharpImgs.main)} />
-        <div className={styles.header__text}>
-          <h1>Aux 1000 Feuilles</h1>
-          <h2>Boulangerie – Patisserie – Confiserie</h2>
-        </div>
-      </header>
+      <Header mainImage={sharpImgs.main} />
       <main onClick={closeMenu}>
         <section className={styles.section}>
           <h2 className={styles.section__title}>Nos produits</h2>
-          <GatsbyImage alt="Produits" image={getImage(sharpImgs.produits)} />
+          <Link to="produits">
+            <GatsbyImage alt="Produits" image={getImage(sharpImgs.produits)} />
+          </Link>
         </section>
         <section className={styles.section}>
           <h2 className={styles.section__title}>Nos services</h2>
@@ -52,15 +51,7 @@ export default function Page({ data }) {
       <i className={styles.menuBtn} onClick={toggleMenu}>
         Menu
       </i>
-      <aside className={styles.menu}>
-        <div className={styles.menu__entry}>Acceuil</div>
-        <div className={styles.menu__entry}>Produits</div>
-        <div className={styles.menu__entry}>Services</div>
-        <div className={styles.menu__entry}>Adresse</div>
-        <div className={styles.menu__entry}>Heures</div>
-        <div className={styles.menu__entry}>Produits</div>
-        <div className={styles.menu__entry}>Contact</div>
-      </aside>
+      <Menu />
     </div>
   );
 

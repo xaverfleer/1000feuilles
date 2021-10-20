@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 import "../assets/styles/style.css";
 import * as styles from "../assets/styles/index.module.css";
 
@@ -13,7 +13,7 @@ export default function Page({ data }) {
 
   const imgFileNames = {
     main: "huge-bread",
-    produits: "produits",
+    produit: "croissant",
   };
 
   const sharpImgs = Object.keys(imgFileNames).reduce((acc, curr) => {
@@ -28,10 +28,14 @@ export default function Page({ data }) {
       <Header mainImage={sharpImgs.main} />
       <main onClick={closeMenu}>
         <section className={styles.section}>
-          <h2 className={styles.section__title}>Nos produits</h2>
-          <Link to="/croissant/">
-            <GatsbyImage alt="Produits" image={getImage(sharpImgs.produits)} />
-          </Link>
+          <h1 className={styles.section__title}>Croissant au beurre</h1>
+          <GatsbyImage alt="Croissant" image={getImage(sharpImgs.produit)} />
+          <h2>A Savoir</h2>
+          <p>
+            Pour cette recette de viennoiserie, on utilise une farine fleur, on
+            y ajoute du lait, du beurre, des œufs et du sucre, cuite dans un
+            four à sol en pierre.
+          </p>
         </section>
       </main>
       <footer className={styles.footer}>

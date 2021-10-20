@@ -1,0 +1,10 @@
+.header {
+  background-color: var(--black);
+  padding-bottom: 2em;
+}
+
+.header__text {
+  color: var(--white);
+  text-align: end;
+  padding: 0 1em;
+}
