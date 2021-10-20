@@ -24,14 +24,14 @@ export default function Page({ data }) {
 
   return (
     <div className={styles.wrapper}>
-      <header className={styles.header}>
+      <header className={styles.header} onClick={closeMenu}>
         <GatsbyImage alt="Pain délicieux" image={getImage(sharpImgs.main)} />
         <div className={styles.header__text}>
           <h1>Aux 1000 Feuilles</h1>
           <h2>Boulangerie – Patisserie – Confiserie</h2>
         </div>
       </header>
-      <main>
+      <main onClick={closeMenu}>
         <section className={styles.section}>
           <h2 className={styles.section__title}>Nos produits</h2>
           <GatsbyImage alt="Produits" image={getImage(sharpImgs.produits)} />
@@ -49,9 +49,33 @@ export default function Page({ data }) {
         <div>Grand'Rue 36, 1530 Payerne</div>
         <a href="tel:+41266602224">026 660 22 24</a>
       </footer>
-      <i className={styles.menuBtn}>Menu</i>
+      <i className={styles.menuBtn} onClick={toggleMenu}>
+        Menu
+      </i>
+      <aside className={styles.menu}>
+        <div className={styles.menu__entry}>Acceuil</div>
+        <div className={styles.menu__entry}>Produits</div>
+        <div className={styles.menu__entry}>Services</div>
+        <div className={styles.menu__entry}>Adresse</div>
+        <div className={styles.menu__entry}>Heures</div>
+        <div className={styles.menu__entry}>Produits</div>
+        <div className={styles.menu__entry}>Contact</div>
+      </aside>
     </div>
   );
+
+  function toggleMenu() {
+    const html = document.querySelector("html");
+    const isMenuOpen = html.getAttribute("is-menu-open");
+    isMenuOpen
+      ? html.removeAttribute("is-menu-open")
+      : html.setAttribute("is-menu-open", true);
+  }
+
+  function closeMenu() {
+    const html = document.querySelector("html");
+    html.removeAttribute("is-menu-open");
+  }
 }
 
 export const pageQuery = graphql`
