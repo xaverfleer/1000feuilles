@@ -34,10 +34,3 @@ a {
 .section__title {
   text-transform: uppercase;
 }
-
-.wrapper {
-  background-color: var(--white);
-  margin: 0 auto;
-  max-width: 350px;
-  position: relative;
-}

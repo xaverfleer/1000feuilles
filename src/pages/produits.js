@@ -5,9 +5,7 @@ import * as styles from "../assets/styles/index.module.css";
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Menu from "../components/Menu";
+import Layout from "../components/Layout";
 
 export default function Page({ data }) {
   const imgs = data.allImgs.nodes;
@@ -25,8 +23,7 @@ export default function Page({ data }) {
   }, {});
 
   return (
-    <div className={styles.wrapper}>
-      <Header mainImage={sharpImgs.main} />
+    <Layout mainImage={sharpImgs.main}>
       <main onClick={closeMenu}>
         <section className={styles.section}>
           <h2 className={styles.section__title}>Nos produits</h2>
@@ -35,9 +32,7 @@ export default function Page({ data }) {
           </Link>
         </section>
       </main>
-      <Footer />
-      <Menu />
-    </div>
+    </Layout>
   );
 
   function closeMenu() {
