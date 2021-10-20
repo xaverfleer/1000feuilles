@@ -40,6 +40,29 @@ export default function Page({ data }) {
           <GatsbyImage alt="Services" image={getImage(sharpImgs.services)} />
         </section>
         <section className={styles.section}>
+          <h2 className={styles.section__title}>Horaire</h2>
+          <table className={styles.opening}>
+            <tr>
+              <td className={styles.opening__day}>Lundi – Vendredi</td>
+              <td className={styles.opening__timeStart}>6:00</td>
+              <td className={styles.opening__timeSeparator}>–</td>
+              <td className={styles.opening__timeEnd}>18:30</td>
+            </tr>
+            <tr>
+              <td className={styles.opening__day}>Samedi</td>
+              <td className={styles.opening__timeStart}>6:30</td>
+              <td className={styles.opening__timeSeparator}>–</td>
+              <td className={styles.opening__timeEnd}>17:00</td>
+            </tr>
+            <tr>
+              <td className={styles.opening__day}>Dimanche</td>
+              <td className={styles.opening__timeStart}>7:00</td>
+              <td className={styles.opening__timeSeparator}>–</td>
+              <td className={styles.opening__timeEnd}>17:00</td>
+            </tr>
+          </table>
+        </section>
+        <section className={styles.section}>
           <h2 className={styles.section__title}>Liens utiles</h2>
           <GatsbyImage alt="Liens utiles" image={getImage(sharpImgs.utiles)} />
         </section>

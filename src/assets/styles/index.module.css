@@ -8,6 +8,28 @@ a {
   text-align: end;
 }
 
+.opening {
+  margin: 0 auto;
+}
+
+.opening__day {
+  padding-right: 1em;
+  text-align: end;
+  text-transform: uppercase;
+}
+
+.opening__time-start {
+  text-align: end;
+}
+
+.opening__time-start {
+  text-align: end;
+}
+
+.opening__time-end {
+  text-align: start;
+}
+
 .section {
   border-bottom: 3px solid var(--black);
   padding: 1em 1em 3em;
