@@ -1,5 +1,4 @@
 - add Layout component
-- add heures d'ouverture
 - add button "plus de produits"
 - create favicon
 - couleurs bleues
