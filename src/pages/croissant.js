@@ -7,7 +7,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Menu from "../components/Menu.js";
+import Menu from "../components/Menu";
 
 export default function Page({ data }) {
   const imgs = data.allImgs.nodes;

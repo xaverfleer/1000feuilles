@@ -7,7 +7,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Menu from "../components/Menu.js";
+import Menu from "../components/Menu";
 
 export default function Page({ data }) {
   const imgs = data.allImgs.nodes;
@@ -68,21 +68,10 @@ export default function Page({ data }) {
           <GatsbyImage alt="Liens utiles" image={getImage(sharpImgs.utiles)} />
         </section>
       </main>
-      <footer className={styles.footer} onClick={closeMenu}>
-        <div>Grand'Rue 36, 1530 Payerne</div>
-        <a href="tel:+41266602224">026 660 22 24</a>
-      </footer>
+      <Footer />
       <Menu />
     </div>
   );
-
-  function toggleMenu() {
-    const html = document.querySelector("html");
-    const isMenuOpen = html.getAttribute("is-menu-open");
-    isMenuOpen
-      ? html.removeAttribute("is-menu-open")
-      : html.setAttribute("is-menu-open", true);
-  }
 
   function closeMenu() {
     const html = document.querySelector("html");
