@@ -7,7 +7,7 @@ import * as styles from "./Header.module.css";
 
 export default function Menu({ mainImage }) {
   return (
-    <header className={styles.header} onClick={closeMenu}>
+    <header className={styles.header}>
       <Link to="/">
         <GatsbyImage alt="Pain délicieux" image={getImage(mainImage)} />
       </Link>
@@ -17,9 +17,4 @@ export default function Menu({ mainImage }) {
       </div>
     </header>
   );
-
-  function closeMenu() {
-    const html = document.querySelector("html");
-    html.removeAttribute("is-menu-open");
-  }
 }

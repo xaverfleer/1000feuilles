@@ -24,25 +24,18 @@ export default function Page({ data }) {
 
   return (
     <Layout mainImage={sharpImgs.main}>
-      <main onClick={closeMenu}>
-        <section className={styles.section}>
-          <h1 className={styles.section__title}>Croissant au beurre</h1>
-          <GatsbyImage alt="Croissant" image={getImage(sharpImgs.produit)} />
-          <h2>A Savoir</h2>
-          <p>
-            Pour cette recette de viennoiserie, on utilise une farine fleur, on
-            y ajoute du lait, du beurre, des œufs et du sucre, cuite dans un
-            four à sol en pierre.
-          </p>
-        </section>
-      </main>
+      <section className={styles.section}>
+        <h1 className={styles.section__title}>Croissant au beurre</h1>
+        <GatsbyImage alt="Croissant" image={getImage(sharpImgs.produit)} />
+        <h2>A Savoir</h2>
+        <p>
+          Pour cette recette de viennoiserie, on utilise une farine fleur, on y
+          ajoute du lait, du beurre, des œufs et du sucre, cuite dans un four à
+          sol en pierre.
+        </p>
+      </section>
     </Layout>
   );
-
-  function closeMenu() {
-    const html = document.querySelector("html");
-    html.removeAttribute("is-menu-open");
-  }
 }
 
 export const pageQuery = graphql`

@@ -6,11 +6,15 @@ import * as styles from "./Menu.module.css";
 export default function Menu() {
   return (
     <>
-      <aside className={styles.menu}>
-        <Link className={styles.menu__entry} to="/">
+      <aside className={`menu ${styles.menu}`}>
+        <Link className={styles.menu__entry} to="/" onClick={closeMenu}>
           Acceuil
         </Link>
-        <Link className={styles.menu__entry} to="/produits/">
+        <Link
+          className={styles.menu__entry}
+          to="/produits/"
+          onClick={closeMenu}
+        >
           Produits
         </Link>
         <div className={styles.menu__entry}>Services</div>
@@ -19,7 +23,7 @@ export default function Menu() {
         <div className={styles.menu__entry}>Produits</div>
         <div className={styles.menu__entry}>Contact</div>
       </aside>
-      <i className={styles.menuBtn} onClick={toggleMenu}>
+      <i className={`menu-btn ${styles.menuBtn}`} onClick={toggleMenu}>
         Menu
       </i>
     </>

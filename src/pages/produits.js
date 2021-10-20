@@ -24,21 +24,14 @@ export default function Page({ data }) {
 
   return (
     <Layout mainImage={sharpImgs.main}>
-      <main onClick={closeMenu}>
-        <section className={styles.section}>
-          <h2 className={styles.section__title}>Nos produits</h2>
-          <Link to="/croissant/">
-            <GatsbyImage alt="Produits" image={getImage(sharpImgs.produits)} />
-          </Link>
-        </section>
-      </main>
+      <section className={styles.section}>
+        <h2 className={styles.section__title}>Nos produits</h2>
+        <Link to="/croissant/">
+          <GatsbyImage alt="Produits" image={getImage(sharpImgs.produits)} />
+        </Link>
+      </section>
     </Layout>
   );
-
-  function closeMenu() {
-    const html = document.querySelector("html");
-    html.removeAttribute("is-menu-open");
-  }
 }
 
 export const pageQuery = graphql`
