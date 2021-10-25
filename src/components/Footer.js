@@ -12,7 +12,6 @@ export default function Footer() {
         >
           <StaticImage
             alt="Facebook - Aux 1000 Feuilles"
-            as="a"
             className={styles.social}
             src="../assets/images/facebook.svg"
           />
@@ -23,7 +22,6 @@ export default function Footer() {
         >
           <StaticImage
             alt="Instagram - Aux 1000 Feuilles"
-            as="a"
             src="../assets/images/instagram.svg"
             className={styles.social}
           />
