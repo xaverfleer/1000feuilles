@@ -24,11 +24,13 @@ p {
 }
 
 html {
-  background-color: var(--dark-gray);
   --blue: #0d248d;
-  --black: #00020a;
-  --dark-gray: #010519;
+  --black: #010519;
+  --dark-gray: #040b2f;
   --gray: #4f567d;
   --gray--bright: #e2e3e9;
   --white: #f1f1f3;
+
+  background-color: var(--dark-gray);
+  color: var(--black);
 }
