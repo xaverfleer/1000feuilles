@@ -7,7 +7,8 @@ import Menu from "../components/Menu";
 import * as styles from "./Layout.module.css";
 
 export default function Layout({ children, mainImage }) {
-  const html = document?.querySelector("html");
+  const html =
+    typeof document !== "undefined" && document.querySelector("html");
   html &&
     html.addEventListener("click", (event) => {
       const isMenuOpen = html.getAttribute("is-menu-open");
