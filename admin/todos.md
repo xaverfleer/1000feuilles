@@ -1,11 +1,13 @@
-- add 404 page
+- add button "plus de produits"
+- add backbutton to /products/
+- add back button to /croissant/
+- generate products from /content/products/.
 - add product images to /index
 - add product images to /produits
 - add gallery to /produits
 - mv main image to /layout
 
 - create favicon
-- add button "plus de produits"
 - add layout whick references stylesheet
 - create landing page
 - add contact form

@@ -3,6 +3,25 @@ a {
   opacity: 0.8;
 }
 
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.products__product {
+  max-height: 7em;
+  flex: 1 1 40%;
+}
+
+.products__product:nth-of-type(6n - 5) {
+  flex-basis: 25%;
+}
+
+.products__product:nth-of-type(6n - 3) {
+  flex-basis: 55%;
+}
+
 .opening {
   margin: 0 auto;
 }
