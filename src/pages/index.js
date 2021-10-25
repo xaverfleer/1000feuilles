@@ -33,29 +33,30 @@ export default function Page({ data }) {
     <Layout mainImage={sharpImgs.main}>
       <section className={styles.section}>
         <h2 className={styles.section__title}>Nos produits</h2>
-        <Link to="produits">
-          <div className={styles.products}>
-            <GatsbyImage
-              alt="Produit"
-              className={styles.products__product}
-              image={getImage(sharpImgs.product00)}
-            />
-            <GatsbyImage
-              alt="Produit"
-              className={styles.products__product}
-              image={getImage(sharpImgs.product01)}
-            />
-            <GatsbyImage
-              alt="Produit"
-              className={styles.products__product}
-              image={getImage(sharpImgs.product02)}
-            />
-            <GatsbyImage
-              alt="Produit"
-              className={styles.products__product}
-              image={getImage(sharpImgs.product03)}
-            />
-          </div>
+        <div className={styles.products}>
+          <GatsbyImage
+            alt="Produit"
+            className={styles.products__product}
+            image={getImage(sharpImgs.product00)}
+          />
+          <GatsbyImage
+            alt="Produit"
+            className={styles.products__product}
+            image={getImage(sharpImgs.product01)}
+          />
+          <GatsbyImage
+            alt="Produit"
+            className={styles.products__product}
+            image={getImage(sharpImgs.product02)}
+          />
+          <GatsbyImage
+            alt="Produit"
+            className={styles.products__product}
+            image={getImage(sharpImgs.product03)}
+          />
+        </div>
+        <Link className={`button ${styles.button}`} to="/produits/">
+          Plus de produits
         </Link>
       </section>
       <section className={styles.section}>
