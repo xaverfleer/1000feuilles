@@ -2,3 +2,15 @@
   padding: 1rem 1rem 4rem;
   text-align: end;
 }
+
+.social {
+  display: block;
+  max-width: 40px;
+}
+
+.socials {
+  display: flex;
+  column-gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
