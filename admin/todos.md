@@ -1,13 +1,8 @@
-- add Layout component
-- add button "plus de produits"
 - create favicon
-- couleurs bleues
-- résaux sociaux
--
--
+- add button "plus de produits"
 - add layout whick references stylesheet
 - create landing page
 - add contact form
 - vacances, jours fériés
 - photos du magasin
--
+- find out why social colors do not match (fb vs insta)
