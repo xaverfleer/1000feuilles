@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 import "../assets/styles/style.css";
 import * as styles from "../assets/styles/index.module.css";
 
@@ -24,6 +24,7 @@ export default function Page({ data }) {
 
   return (
     <Layout mainImage={sharpImgs.main}>
+      <Link to="/produits/">← Tous les produits</Link>
       <section className={styles.section}>
         <h1 className={styles.section__title}>Croissant au beurre</h1>
         <GatsbyImage alt="Croissant" image={getImage(sharpImgs.produit)} />

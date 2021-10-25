@@ -1,5 +1,5 @@
-- add backbutton to /products/
-- add back button to /croissant/
+- add component ButtonBack
+- add component ButtonPrimary
 - generate products from /content/products/.
 - add product images to /index
 - add product images to /produits

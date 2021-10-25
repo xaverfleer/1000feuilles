@@ -20,7 +20,7 @@ export default function Layout({ children, mainImage }) {
   return (
     <div className={styles.wrapper}>
       <Header mainImage={mainImage} />
-      <main>{children}</main>
+      <main className={styles.main}>{children}</main>
       <Footer />
       <Menu />
     </div>

@@ -1,3 +1,7 @@
+.main {
+  padding: 3em 1em;
+}
+
 .wrapper {
   background-color: var(--white);
   margin: 0 auto;

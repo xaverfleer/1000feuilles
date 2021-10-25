@@ -30,6 +30,7 @@ export default function Page({ data }) {
 
   return (
     <Layout mainImage={sharpImgs.main}>
+      <Link to="/">← Page d'acceuil</Link>
       <section className={styles.section}>
         <h2 className={styles.section__title}>Nos produits</h2>
         <Link to="/croissant/">
