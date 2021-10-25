@@ -1,3 +1,9 @@
+- add 404 page
+- add product images to /index
+- add product images to /produits
+- add gallery to /produits
+- mv main image to /layout
+
 - create favicon
 - add button "plus de produits"
 - add layout whick references stylesheet
