@@ -1,4 +1,3 @@
-- add button "plus de produits"
 - add backbutton to /products/
 - add back button to /croissant/
 - generate products from /content/products/.
