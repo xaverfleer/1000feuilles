@@ -25,9 +25,10 @@ p {
 
 html {
   background-color: var(--dark-gray);
-  --black: #09101a;
-  --dark-gray: #111c2c;
-  --gray: #4c5b70;
-  --gray--bright: #bfc3ca;
-  --white: #eaeaec;
+  --blue: #0d248d;
+  --black: #00020a;
+  --dark-gray: #010519;
+  --gray: #4f567d;
+  --gray--bright: #e2e3e9;
+  --white: #f1f1f3;
 }
