@@ -12,7 +12,6 @@ export default function Page({ data }) {
   const imgs = data.allImgs.nodes;
 
   const imgFileNames = {
-    main: "huge-bread",
     produit: "croissant",
   };
 
@@ -24,7 +23,7 @@ export default function Page({ data }) {
   }, {});
 
   return (
-    <Layout mainImage={sharpImgs.main}>
+    <Layout>
       <ButtonBack to="/produits/" label="← Tous les produits" />
       <Section>
         <h1>Croissant au beurre</h1>

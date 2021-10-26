@@ -6,7 +6,7 @@ import Menu from "../components/Menu";
 
 import * as styles from "./Layout.module.css";
 
-export default function Layout({ children, mainImage }) {
+export default function Layout({ children }) {
   const html =
     typeof document !== "undefined" && document.querySelector("html");
   html &&
@@ -19,7 +19,7 @@ export default function Layout({ children, mainImage }) {
 
   return (
     <div className={styles.wrapper}>
-      <Header mainImage={mainImage} />
+      <Header />
       <main className={styles.main}>{children}</main>
       <Footer />
       <Menu />

@@ -1,9 +1,5 @@
-- add component ButtonPrimary
-- generate products from /content/products/.
-- add product images to /index
-- add product images to /produits
 - add gallery to /produits
-- mv main image to /layout
+- generate products from /content/products/.
 
 - create favicon
 - add layout whick references stylesheet
@@ -12,3 +8,4 @@
 - vacances, jours fériés
 - photos du magasin
 - find out why social colors do not match (fb vs insta)
+- add component ButtonPrimary

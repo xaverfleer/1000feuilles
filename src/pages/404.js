@@ -6,27 +6,11 @@ import * as styles from "../assets/styles/index.module.css";
 import Layout from "../components/Layout";
 import Section from "../components/Section";
 
-export default function Page({ data }) {
-  const imgs = data.allImgs.nodes;
-
-  const imgFileNames = {
-    main: "huge-bread",
-  };
-
-  const sharpImgs = Object.keys(imgFileNames).reduce((acc, curr) => {
-    const fileName = imgFileNames[curr];
-    const sharpImg = imgs.find((i) => i.name === fileName).childImageSharp;
-    acc[curr] = sharpImg;
-    return acc;
-  }, {});
-
+export default function Page() {
   return (
-    <Layout mainImage={sharpImgs.main}>
+    <Layout>
       <Section>
-        <h2 className={styles.section__title}>
-          La page demandée n'existe pas.
-        </h2>
-        → Retour à la&nbsp;
+        <h2>La page demandée n'existe pas.</h2>→ Retour à la&nbsp;
         <Link to="/">page d'accueil</Link>
       </Section>
     </Layout>

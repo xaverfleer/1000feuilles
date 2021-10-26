@@ -12,7 +12,6 @@ export default function Page({ data }) {
   const imgs = data.allImgs.nodes;
 
   const imgFileNames = {
-    main: "huge-bread",
     services: "services",
     utiles: "utiles",
     product00: "croissant",
@@ -31,7 +30,7 @@ export default function Page({ data }) {
   }, {});
 
   return (
-    <Layout mainImage={sharpImgs.main}>
+    <Layout>
       <Section>
         <h2 className={styles.section__title}>Nos produits</h2>
         <div className={styles.products}>
