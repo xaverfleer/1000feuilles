@@ -15,7 +15,7 @@ export default function ContactForm() {
       />
       <ContactFormEntry label="message" name="message" type="textarea" />
       <button className={styles.contactForm__submit} name="submit">
-        Submit
+        Envoyer
       </button>
     </form>
   );
