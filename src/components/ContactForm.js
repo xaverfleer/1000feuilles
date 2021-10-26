@@ -2,7 +2,7 @@ import React from "react";
 
 import * as styles from "./ContactForm.module.css";
 
-const contactEmail = "xaver.fleer+aux1000feuilles.com";
+const contactEmail = "xaver.fleer+aux1000feuilles@gmail.com";
 
 export default function ContactForm() {
   return (
