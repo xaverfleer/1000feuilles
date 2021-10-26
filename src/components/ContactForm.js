@@ -46,7 +46,7 @@ function ContactFormEntry({ label, name, type }) {
           title={label}
         ></textarea>
       )}
-      <label className={styles.contactForm__label} for={inputId}>
+      <label className={styles.contactForm__label} htmlFor={inputId}>
         {label}&thinsp;*
       </label>
     </div>
