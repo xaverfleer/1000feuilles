@@ -44,3 +44,15 @@ textarea.contact-form__input {
   transition: all 0.1s ease-in-out;
   width: 100%;
 }
+
+.contact-form__submit {
+  justify-self: end;
+  background-color: var(--blue);
+  border: none;
+  color: var(--gray--bright);
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  margin-left: auto;
+  text-transform: uppercase;
+  padding: 0.6em 1.8em;
+}

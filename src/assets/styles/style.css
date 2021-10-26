@@ -11,11 +11,16 @@ body {
   font-size: 16px;
 }
 
+button,
 h1,
 h2,
 h3,
 .button {
   font-family: "Fira Sans";
+}
+
+h1 {
+  font-size: var(--font-size-03);
 }
 
 h2 {
