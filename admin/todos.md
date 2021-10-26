@@ -1,5 +1,7 @@
+- remove liens utiles from /index
 - add contact form JS
 - add page title attribute
+- fix opening of menu in firefox-ios
 - ---- fold ----
 - use TypeScript
 - photos du magasin
