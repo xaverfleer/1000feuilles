@@ -4,6 +4,7 @@ import "../assets/styles/style.css";
 import * as styles from "../assets/styles/index.module.css";
 
 import Layout from "../components/Layout";
+import Section from "../components/Section";
 
 export default function Page({ data }) {
   const imgs = data.allImgs.nodes;
@@ -21,13 +22,13 @@ export default function Page({ data }) {
 
   return (
     <Layout mainImage={sharpImgs.main}>
-      <section className={styles.section}>
+      <Section>
         <h2 className={styles.section__title}>
           La page demandée n'existe pas.
         </h2>
         → Retour à la&nbsp;
         <Link to="/">page d'accueil</Link>
-      </section>
+      </Section>
     </Layout>
   );
 }

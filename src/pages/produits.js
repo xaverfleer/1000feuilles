@@ -5,8 +5,9 @@ import * as styles from "../assets/styles/index.module.css";
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
-import Layout from "../components/Layout";
 import ButtonBack from "../components/ButtonBack";
+import Layout from "../components/Layout";
+import Section from "../components/Section";
 
 export default function Page({ data }) {
   const imgs = data.allImgs.nodes;
@@ -32,7 +33,7 @@ export default function Page({ data }) {
   return (
     <Layout mainImage={sharpImgs.main}>
       <ButtonBack to="/" label="← Page d'acceuil" />
-      <section className={styles.section}>
+      <Section>
         <h2 className={styles.section__title}>Nos produits</h2>
         <Link to="/croissant/">
           <div className={styles.products}>
@@ -68,7 +69,7 @@ export default function Page({ data }) {
             />
           </div>
         </Link>
-      </section>
+      </Section>
     </Layout>
   );
 }

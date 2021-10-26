@@ -1,12 +1,12 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import "../assets/styles/style.css";
-import * as styles from "../assets/styles/index.module.css";
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
-import Layout from "../components/Layout";
 import ButtonBack from "../components/ButtonBack";
+import Layout from "../components/Layout";
+import Section from "../components/Section";
 
 export default function Page({ data }) {
   const imgs = data.allImgs.nodes;
@@ -26,8 +26,8 @@ export default function Page({ data }) {
   return (
     <Layout mainImage={sharpImgs.main}>
       <ButtonBack to="/produits/" label="← Tous les produits" />
-      <section className={styles.section}>
-        <h1 className={styles.section__title}>Croissant au beurre</h1>
+      <Section>
+        <h1>Croissant au beurre</h1>
         <GatsbyImage alt="Croissant" image={getImage(sharpImgs.produit)} />
         <h2>A Savoir</h2>
         <p>
@@ -35,7 +35,7 @@ export default function Page({ data }) {
           ajoute du lait, du beurre, des œufs et du sucre, cuite dans un four à
           sol en pierre.
         </p>
-      </section>
+      </Section>
     </Layout>
   );
 }

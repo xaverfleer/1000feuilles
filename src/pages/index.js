@@ -6,6 +6,7 @@ import * as styles from "../assets/styles/index.module.css";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
+import Section from "../components/Section";
 
 export default function Page({ data }) {
   const imgs = data.allImgs.nodes;
@@ -31,7 +32,7 @@ export default function Page({ data }) {
 
   return (
     <Layout mainImage={sharpImgs.main}>
-      <section className={styles.section}>
+      <Section>
         <h2 className={styles.section__title}>Nos produits</h2>
         <div className={styles.products}>
           <GatsbyImage
@@ -58,12 +59,12 @@ export default function Page({ data }) {
         <Link className={`button ${styles.button}`} to="/produits/">
           Plus de produits
         </Link>
-      </section>
-      <section className={styles.section}>
+      </Section>
+      <Section>
         <h2 className={styles.section__title}>Nos services</h2>
         <GatsbyImage alt="Services" image={getImage(sharpImgs.services)} />
-      </section>
-      <section className={styles.section}>
+      </Section>
+      <Section>
         <h2 className={styles.section__title}>Horaire</h2>
         <table className={styles.opening}>
           <tbody>
@@ -87,11 +88,11 @@ export default function Page({ data }) {
             </tr>
           </tbody>
         </table>
-      </section>
-      <section className={styles.section}>
+      </Section>
+      <Section>
         <h2 className={styles.section__title}>Liens utiles</h2>
         <GatsbyImage alt="Liens utiles" image={getImage(sharpImgs.utiles)} />
-      </section>
+      </Section>
     </Layout>
   );
 }

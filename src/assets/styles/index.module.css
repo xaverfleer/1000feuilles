@@ -56,12 +56,3 @@ a {
 .opening__time-end {
   text-align: start;
 }
-
-.section {
-  border-bottom: 3px solid var(--black);
-  text-align: center;
-}
-
-.section__title {
-  text-transform: uppercase;
-}

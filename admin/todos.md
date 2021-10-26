@@ -1,5 +1,4 @@
 - add component ButtonPrimary
-- add component Section
 - generate products from /content/products/.
 - add product images to /index
 - add product images to /produits
