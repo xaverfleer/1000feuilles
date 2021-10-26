@@ -4,7 +4,7 @@ import * as styles from "./ContactForm.module.css";
 
 export default function ContactForm() {
   return (
-    <form className={styles.contactForm}>
+    <form className={styles.contactForm} onSubmit={handleSubmit}>
       <ContactFormEntry label="nom" name="name" type="text" />
       <ContactFormEntry
         label="téléphone ou e-mail"
@@ -51,4 +51,23 @@ function ContactFormEntry({ label, name, type }) {
       </label>
     </div>
   );
+}
+
+function handleSubmit(event) {
+  event.preventDefault();
+  const formElem = event.currentTarget;
+  const payload = getPayload(formElem);
+}
+
+function getPayload(formElem) {
+  const formData = getFormData(formElem);
+  return JSON.stringify({ formData, recipient: contactEmail });
+}
+
+function getFormData(formElem) {
+  return [].slice
+    .call(formElem)
+    .map(({ name, value }) => ({ name, value }))
+    .filter(({ name }) => name !== "submit")
+    .reduce((acc, { name, value }) => ({ ...acc, [name]: value }), {});
 }
