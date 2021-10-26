@@ -28,8 +28,11 @@ export default function Footer() {
         </a>
       </div>
       <address>
+        <div>Aux 1000 Feuilles SA</div>
         <div>Grand'Rue 36, 1530 Payerne</div>
-        <a href="tel:+41266602224">026 660 22 24</a>
+        <div>
+          tel. <a href="tel:+41266602224">026 660 22 24</a>
+        </div>
       </address>
     </footer>
   );
