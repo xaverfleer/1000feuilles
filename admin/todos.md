@@ -1,11 +1,23 @@
-- add gallery to /produits
-- generate products from /content/products/.
-
-- create favicon
-- add layout whick references stylesheet
-- create landing page
-- add contact form
-- vacances, jours fériés
+- add contact form JS
+- add page title attribute
+- ---- fold ----
+- use TypeScript
 - photos du magasin
+- services:
+  - apéro dînatoire
+  - gâteau marriage
+  - croissants anniverssaire
+- catégories des produits
+  - nouveautées
+    - glaces
+    - noël
+  - pain
+  - .. voir sur marche-broyard
+- liens vers marche broyard
+- vacances, jours fériés
+- generate products from /content/products/.
+- create favicon
 - find out why social colors do not match (fb vs insta)
 - add component ButtonPrimary
+- add gallery to /produits
+- fix Content Security Policy warnings
