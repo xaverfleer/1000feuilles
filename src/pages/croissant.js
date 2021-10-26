@@ -6,6 +6,7 @@ import * as styles from "../assets/styles/index.module.css";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
+import ButtonBack from "../components/ButtonBack";
 
 export default function Page({ data }) {
   const imgs = data.allImgs.nodes;
@@ -24,7 +25,7 @@ export default function Page({ data }) {
 
   return (
     <Layout mainImage={sharpImgs.main}>
-      <Link to="/produits/">← Tous les produits</Link>
+      <ButtonBack to="/produits/" label="← Tous les produits" />
       <section className={styles.section}>
         <h1 className={styles.section__title}>Croissant au beurre</h1>
         <GatsbyImage alt="Croissant" image={getImage(sharpImgs.produit)} />

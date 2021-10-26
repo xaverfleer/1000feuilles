@@ -6,6 +6,7 @@ import * as styles from "../assets/styles/index.module.css";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
+import ButtonBack from "../components/ButtonBack";
 
 export default function Page({ data }) {
   const imgs = data.allImgs.nodes;
@@ -30,7 +31,7 @@ export default function Page({ data }) {
 
   return (
     <Layout mainImage={sharpImgs.main}>
-      <Link to="/">← Page d'acceuil</Link>
+      <ButtonBack to="/" label="← Page d'acceuil" />
       <section className={styles.section}>
         <h2 className={styles.section__title}>Nos produits</h2>
         <Link to="/croissant/">
