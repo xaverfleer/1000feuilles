@@ -89,6 +89,24 @@ export default function Page({ data }) {
         </table>
       </Section>
       <Section>
+        <h2>Nous trouver</h2>
+        <address className={styles.address}>
+          <div>Aux 1000 Feuilles SA</div>
+          <div>Grand'Rue 36, 1530 Payerne</div>
+          <div>
+            tel. <a href="tel:+41266602224">026 660 22 24</a>
+          </div>
+        </address>
+        <iframe
+          className={styles.googleMap}
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2730.151053208753!2d6.93722054869384!3d46.82102647249106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e76e928305853%3A0xcbdaa328750307f4!2sAux%201000%20Feuilles%20SA!5e0!3m2!1sfr!2sch!4v1572257894116!5m2!1sfr!2sch"
+          allowfullscreen=""
+          width="600"
+          height="450"
+          frameborder="0"
+        ></iframe>
+      </Section>
+      <Section>
         <h2>Liens utiles</h2>
         <GatsbyImage alt="Liens utiles" image={getImage(sharpImgs.utiles)} />
       </Section>

@@ -3,6 +3,10 @@ a {
   opacity: 0.8;
 }
 
+.address {
+  margin-bottom: 1em;
+}
+
 .button {
   background-color: var(--blue);
   border-radius: 0.5rem;
@@ -13,6 +17,10 @@ a {
   padding: 1em 2em;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.google-map {
+  max-width: 100%;
 }
 
 .products {
