@@ -32,7 +32,7 @@ export default function Page({ data }) {
   return (
     <Layout>
       <Section>
-        <h2 className={styles.section__title}>Nos produits</h2>
+        <h2>Nos produits</h2>
         <div className={styles.products}>
           <GatsbyImage
             alt="Produit"
@@ -60,11 +60,11 @@ export default function Page({ data }) {
         </Link>
       </Section>
       <Section>
-        <h2 className={styles.section__title}>Nos services</h2>
+        <h2>Nos services</h2>
         <GatsbyImage alt="Services" image={getImage(sharpImgs.services)} />
       </Section>
       <Section>
-        <h2 className={styles.section__title}>Horaire</h2>
+        <h2>Horaire</h2>
         <table className={styles.opening}>
           <tbody>
             <tr>
@@ -89,7 +89,7 @@ export default function Page({ data }) {
         </table>
       </Section>
       <Section>
-        <h2 className={styles.section__title}>Liens utiles</h2>
+        <h2>Liens utiles</h2>
         <GatsbyImage alt="Liens utiles" image={getImage(sharpImgs.utiles)} />
       </Section>
     </Layout>

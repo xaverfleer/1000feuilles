@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import "../assets/styles/style.css";
-import * as styles from "../assets/styles/index.module.css";
 
 import Layout from "../components/Layout";
 import Section from "../components/Section";

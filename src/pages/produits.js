@@ -33,7 +33,7 @@ export default function Page({ data }) {
     <Layout>
       <ButtonBack to="/" label="← Page d'acceuil" />
       <Section>
-        <h2 className={styles.section__title}>Nos produits</h2>
+        <h2>Nos produits</h2>
         <Link to="/croissant/">
           <div className={styles.products}>
             <GatsbyImage
