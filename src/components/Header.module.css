@@ -5,6 +5,7 @@
 
 .header__subtitle {
   text-transform: none;
+  font-family: "Fira Sans";
 }
 
 .header__text {

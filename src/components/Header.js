@@ -13,9 +13,9 @@ export default function Menu({ mainImage }) {
       </Link>
       <div className={styles.header__text}>
         <h1>Aux 1000 Feuilles</h1>
-        <h2 className={styles.header__subtitle}>
+        <div className={styles.header__subtitle}>
           Boulangerie – Patisserie – Confiserie
-        </h2>
+        </div>
       </div>
     </header>
   );
