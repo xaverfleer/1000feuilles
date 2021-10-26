@@ -3,6 +3,10 @@
   padding-bottom: 2em;
 }
 
+.header__subtitle {
+  text-transform: none;
+}
+
 .header__text {
   color: var(--white);
   text-align: end;
