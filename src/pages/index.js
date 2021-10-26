@@ -5,6 +5,7 @@ import * as styles from "../assets/styles/index.module.css";
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
+import ContactForm from "../components/ContactForm";
 import Layout from "../components/Layout";
 import Section from "../components/Section";
 
@@ -109,6 +110,10 @@ export default function Page({ data }) {
       <Section>
         <h2>Liens utiles</h2>
         <GatsbyImage alt="Liens utiles" image={getImage(sharpImgs.utiles)} />
+      </Section>
+      <Section>
+        <h2>Contactez nous</h2>
+        <ContactForm />
       </Section>
     </Layout>
   );
