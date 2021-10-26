@@ -2,6 +2,8 @@ import React from "react";
 
 import * as styles from "./ContactForm.module.css";
 
+const contactEmail = "xaver.fleer+aux1000feuilles.com";
+
 export default function ContactForm() {
   return (
     <form className={styles.contactForm} onSubmit={handleSubmit}>
