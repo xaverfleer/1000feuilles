@@ -1,8 +1,9 @@
-- ---- fold 01 ----
-- ---- fold 02 ----
-- photos du magasin
+- fix Content Security Policy warnings
+- add component ButtonPrimary
+- create favicon
+- liens vers marche broyard
 - services:
-  - apéro dînatoire
+  - apéro dînatoire (salé et sucré)
   - gâteau marriage
   - croissants anniverssaire
 - catégories des produits
@@ -11,14 +12,20 @@
     - noël
   - pain
   - .. voir sur marche-broyard
-- liens vers marche broyard
-- vacances, jours fériés
-- generate products from /content/products/.
-- create favicon
-- find out why social colors do not match (fb vs insta)
-- add component ButtonPrimary
-- add gallery to /produits
-- fix Content Security Policy warnings
-- use async functions in netlify functions
+- fix links colors
+- ---- fold 01 ----
 - use TypeScript
 - check warnings in gatsby build
+- ---- fold 02 ----
+- generate products from /content/products/.
+- photos du magasin
+- photos de l'équippe
+- move opening hours, map, contact to separate pages
+- use async functions in netlify functions
+
+# I need from Graziella
+
+- discuss pricing:
+- Photos du magasin
+- Photos de l'équipe
+- vacances, jours fériés
