@@ -1,5 +1,8 @@
 .section {
-  border-bottom: 3px solid var(--black);
   padding: 1.5rem 0;
   text-align: center;
+}
+
+.section:not(:last-of-type) {
+  border-bottom: 3px solid var(--black);
 }
