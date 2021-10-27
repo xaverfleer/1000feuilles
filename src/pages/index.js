@@ -1,5 +1,7 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
+import Helmet from "react-helmet";
+
 import "../assets/styles/style.css";
 import * as styles from "../assets/styles/index.module.css";
 
@@ -32,6 +34,13 @@ export default function Page({ data }) {
 
   return (
     <Layout>
+      <Helmet>
+        <title>Aux 1000 Feuilles</title>
+        <meta
+          name="description"
+          content="Boulangerie - Patisserie - Confiserie – Payerne"
+        />
+      </Helmet>
       <Section>
         <h2>Nos produits</h2>
         <div className={styles.products}>
