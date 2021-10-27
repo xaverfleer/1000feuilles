@@ -22,6 +22,11 @@ export default function Page({ data }) {
     product03: "pain-aux-graines-crusti",
     product04: "sandwich-pain-festival",
     product05: "tourte-mousse-framboise-chocolat-au-lait",
+    tourte00: "tourte-mille-feuilles",
+    tourte01: "tourte-mousse-framboise-chocolat-au-lait",
+    tourte02: "tourte-st-honoré",
+    tourte03: "tourte-mousse",
+    tourte04: "meringue-citron",
   };
 
   const sharpImgs = Object.keys(imgFileNames).reduce((acc, curr) => {
@@ -66,13 +71,38 @@ export default function Page({ data }) {
               className={styles.products__product}
               image={getImage(sharpImgs.product04)}
             />
-            <GatsbyImage
-              alt="Produit"
-              className={styles.products__product}
-              image={getImage(sharpImgs.product05)}
-            />
           </div>
         </Link>
+      </Section>
+      <Section>
+        <h2>Nos tourtes</h2>
+        <div className={styles.products}>
+          <GatsbyImage
+            alt="Produit"
+            className={styles.products__product}
+            image={getImage(sharpImgs.tourte00)}
+          />
+          <GatsbyImage
+            alt="Produit"
+            className={styles.products__product}
+            image={getImage(sharpImgs.tourte01)}
+          />
+          <GatsbyImage
+            alt="Produit"
+            className={styles.products__product}
+            image={getImage(sharpImgs.tourte02)}
+          />
+          <GatsbyImage
+            alt="Produit"
+            className={styles.products__product}
+            image={getImage(sharpImgs.tourte03)}
+          />
+          <GatsbyImage
+            alt="Produit"
+            className={styles.products__product}
+            image={getImage(sharpImgs.tourte04)}
+          />
+        </div>
       </Section>
       <Section>
         <h2>Marché en ligne</h2>

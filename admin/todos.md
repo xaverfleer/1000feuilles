@@ -1,4 +1,3 @@
-- liens vers marche broyard
 - services:
   - apéro dînatoire (salé et sucré)
   - gâteau marriage
