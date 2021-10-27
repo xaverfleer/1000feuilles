@@ -3,7 +3,9 @@
 - remove liens utiles from /index
 - add page title attribute
 - fix opening of menu in firefox-ios
-- ---- fold ----
+- ---- fold 01 ----
+- add title attributes to all sites
+- ---- fold 02 ----
 - photos du magasin
 - services:
   - apéro dînatoire
