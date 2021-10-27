@@ -1,4 +1,4 @@
-- check warnings
+- check warnings in gatsby build
 - add message submitted page
 - remove liens utiles from /index
 - add page title attribute
