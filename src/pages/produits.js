@@ -15,18 +15,23 @@ export default function Page({ data }) {
 
   const imgFileNames = {
     marcheBroyard: "marche-broyard",
-    produits: "produits",
     product00: "croissant",
     product01: "delice",
     product02: "macarons-st-valentin",
-    product03: "pain-aux-graines-crusti",
-    product04: "sandwich-pain-festival",
-    product05: "tourte-mousse-framboise-chocolat-au-lait",
+    product03: "sandwich-pain-festival",
+    product04: "tourte-mousse-framboise-chocolat-au-lait",
     tourte00: "tourte-mille-feuilles",
     tourte01: "tourte-mousse-framboise-chocolat-au-lait",
     tourte02: "tourte-st-honoré",
     tourte03: "tourte-mousse",
     tourte04: "meringue-citron",
+    pain00: "pain-aux-graines-crusti",
+    pain01: "pain-balance",
+    pain02: "pain-le-naturel",
+    pain03: "pain-mi-blanc",
+    pain04: "pain-tessinois",
+    pain05: "pain-tradilin",
+    pain06: "tresse",
   };
 
   const sharpImgs = Object.keys(imgFileNames).reduce((acc, curr) => {
@@ -101,6 +106,46 @@ export default function Page({ data }) {
             alt="Produit"
             className={styles.products__product}
             image={getImage(sharpImgs.tourte04)}
+          />
+        </div>
+      </Section>
+      <Section>
+        <h2>Nos pains</h2>
+        <div className={styles.products}>
+          <GatsbyImage
+            alt="Produit"
+            className={styles.products__product}
+            image={getImage(sharpImgs.pain00)}
+          />
+          <GatsbyImage
+            alt="Produit"
+            className={styles.products__product}
+            image={getImage(sharpImgs.pain01)}
+          />
+          <GatsbyImage
+            alt="Produit"
+            className={styles.products__product}
+            image={getImage(sharpImgs.pain02)}
+          />
+          <GatsbyImage
+            alt="Produit"
+            className={styles.products__product}
+            image={getImage(sharpImgs.pain03)}
+          />
+          <GatsbyImage
+            alt="Produit"
+            className={styles.products__product}
+            image={getImage(sharpImgs.pain04)}
+          />
+          <GatsbyImage
+            alt="Produit"
+            className={styles.products__product}
+            image={getImage(sharpImgs.pain05)}
+          />
+          <GatsbyImage
+            alt="Produit"
+            className={styles.products__product}
+            image={getImage(sharpImgs.pain06)}
           />
         </div>
       </Section>
