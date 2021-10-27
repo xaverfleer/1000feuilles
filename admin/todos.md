@@ -1,6 +1,3 @@
-- fix Content Security Policy warnings
-- add component ButtonPrimary
-- create favicon
 - liens vers marche broyard
 - services:
   - apéro dînatoire (salé et sucré)
@@ -12,16 +9,17 @@
     - noël
   - pain
   - .. voir sur marche-broyard
-- fix links colors
+- fix links opacity
 - ---- fold 01 ----
-- use TypeScript
-- check warnings in gatsby build
 - ---- fold 02 ----
+- add component ButtonPrimary
 - generate products from /content/products/.
 - photos du magasin
 - photos de l'équippe
 - move opening hours, map, contact to separate pages
 - use async functions in netlify functions
+- check warnings in gatsby build
+- use TypeScript
 
 # I need from Graziella
 

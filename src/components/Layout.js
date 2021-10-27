@@ -1,5 +1,7 @@
 import React from "react";
 
+import Helmet from "react-helmet";
+
 import Header from "./Header";
 import Footer from "./Footer";
 import Menu from "../components/Menu";
@@ -19,6 +21,9 @@ export default function Layout({ children }) {
 
   return (
     <div className={styles.wrapper}>
+      <Helmet>
+        <meta name="icon" href="/favicon.png" />
+      </Helmet>
       <Header />
       <main className={styles.main}>{children}</main>
       <Footer />
