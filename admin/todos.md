@@ -1,8 +1,4 @@
-- add page title attribute
-- fix opening of menu in firefox-ios
 - ---- fold 01 ----
-- add title attributes to all sites
-- check warnings in gatsby build
 - ---- fold 02 ----
 - photos du magasin
 - services:
@@ -25,3 +21,4 @@
 - fix Content Security Policy warnings
 - use async functions in netlify functions
 - use TypeScript
+- check warnings in gatsby build

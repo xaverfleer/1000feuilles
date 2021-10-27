@@ -32,6 +32,7 @@ html[is-menu-open="true"] .menu {
   border-radius: 1px 0 0 0;
   border: none;
   bottom: 0;
+  color: inherit;
   cursor: pointer;
   display: flex;
   outline: none;
