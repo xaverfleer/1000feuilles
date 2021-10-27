@@ -14,10 +14,11 @@ export default function Page() {
         <title>message envoyé | aux 1000 feuilles</title>
       </Helmet>
       <Section>
-        <h2>
-          Nous vous remercions pour votre message. Nous vous contacterons dès
+        <h2>Merci</h2>
+        <p>
+          Nous vous remercions pour votre message et nous vous contacterons dès
           que possible.
-        </h2>
+        </p>
         → Retour à la&nbsp;
         <Link to="/">page d'accueil</Link>
       </Section>
