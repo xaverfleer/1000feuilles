@@ -10,9 +10,9 @@ import Section from "../components/Section";
 export default function Page() {
   return (
     <Layout>
-      <Helmet>
-        <title>Message envoyé | Aux 1000 Feuilles</title>
-      </Helmet>
+      <helmet>
+        <title>message envoyé | aux 1000 feuilles</title>
+      </helmet>
       <Section>
         <h2>
           Nous vous remercions pour votre message. Nous vous contacterons dès

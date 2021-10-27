@@ -1,6 +1,7 @@
-import React from "react";
+import React Vfrom "react";
 import { Link, graphql } from "gatsby";
-import "../assets/styles/style.css";
+import Helmet from "react-helmet";
+
 import * as styles from "../assets/styles/index.module.css";
 
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
@@ -31,6 +32,9 @@ export default function Page({ data }) {
 
   return (
     <Layout>
+      <Helmet>
+        <title>Produits | Aux 1000 Feuilles</title>
+      </Helmet>
       <ButtonBack to="/" label="← Page d'acceuil" />
       <Section>
         <h2>Nos produits</h2>

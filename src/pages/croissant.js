@@ -2,6 +2,8 @@ import React from "react";
 import { graphql } from "gatsby";
 import "../assets/styles/style.css";
 
+import Helmet from "react-helmet";
+
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 import ButtonBack from "../components/ButtonBack";
@@ -24,6 +26,9 @@ export default function Page({ data }) {
 
   return (
     <Layout>
+      <Helmet>
+        <title>Croissant au beurre | Aux 1000 Feuilles</title>
+      </Helmet>
       <ButtonBack to="/produits/" label="← Tous les produits" />
       <Section>
         <h1>Croissant au beurre</h1>
