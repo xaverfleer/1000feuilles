@@ -15,14 +15,14 @@ export default function Page({ data }) {
   const imgs = data.allImgs.nodes;
 
   const imgFileNames = {
-    services: "services",
-    utiles: "utiles",
     product00: "croissant",
     product01: "delice",
     product02: "macarons-st-valentin",
     product03: "pain-aux-graines-crusti",
     product04: "sandwich-pain-festival",
     product05: "tourte-mousse-framboise-chocolat-au-lait",
+    services: "services",
+    utiles: "utiles",
   };
 
   const sharpImgs = Object.keys(imgFileNames).reduce((acc, curr) => {

@@ -14,6 +14,7 @@ export default function Page({ data }) {
   const imgs = data.allImgs.nodes;
 
   const imgFileNames = {
+    marcheBroyard: "marche-broyard",
     produits: "produits",
     product00: "croissant",
     product01: "delice",
@@ -72,6 +73,19 @@ export default function Page({ data }) {
             />
           </div>
         </Link>
+      </Section>
+      <Section>
+        <h2>Marché en ligne</h2>
+        <p>
+          Trouovez nos articles en ligne au sur le{" "}
+          <a href="https://marche-broyard.ch/" alt="Marché Broyard">
+            Marché Broyard
+          </a>
+          .
+        </p>
+        <a href="https://marche-broyard.ch" alt="Marché Broyard">
+          <GatsbyImage image={getImage(sharpImgs.marcheBroyard)} />
+        </a>
       </Section>
     </Layout>
   );
