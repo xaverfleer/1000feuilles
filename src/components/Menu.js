@@ -7,13 +7,19 @@ export default function Menu() {
   return (
     <>
       <aside className={`menu ${styles.menu}`}>
-        <Link className={styles.menu__entry} to="/" onClick={closeMenu}>
+        <Link
+          className={styles.menu__entry}
+          to="/"
+          onClick={closeMenu}
+          onKeyDown={handleEnterKey}
+        >
           Acceuil
         </Link>
         <Link
           className={styles.menu__entry}
           to="/produits/"
           onClick={closeMenu}
+          onKeyDown={handleEnterKey}
         >
           Produits
         </Link>
@@ -28,6 +34,10 @@ export default function Menu() {
       </i>
     </>
   );
+
+  function handleEnterKey(keyboardEvent) {
+    keyboardEvent.key === "Enter" && keyboardEvent.target.click();
+  }
 
   function toggleMenu() {
     const html = document.querySelector("html");
