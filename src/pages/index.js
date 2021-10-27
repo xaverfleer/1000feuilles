@@ -114,6 +114,7 @@ export default function Page({ data }) {
           width="600"
           height="450"
           frameBorder="0"
+          title="Google Map - Aux 1000 Feuilles"
         ></iframe>
       </Section>
       <Section>
