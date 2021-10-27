@@ -118,10 +118,6 @@ export default function Page({ data }) {
         ></iframe>
       </Section>
       <Section>
-        <h2>Liens utiles</h2>
-        <GatsbyImage alt="Liens utiles" image={getImage(sharpImgs.utiles)} />
-      </Section>
-      <Section>
         <h2>Contactez nous</h2>
         <ContactForm />
       </Section>

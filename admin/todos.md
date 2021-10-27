@@ -1,5 +1,3 @@
-- add message submitted page
-- remove liens utiles from /index
 - add page title attribute
 - fix opening of menu in firefox-ios
 - ---- fold 01 ----
