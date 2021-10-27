@@ -20,7 +20,9 @@ export default function Page() {
           que possible.
         </p>
         → Retour à la&nbsp;
-        <Link to="/">page d'accueil</Link>
+        <Link className="text-link" to="/">
+          page d'accueil
+        </Link>
       </Section>
     </Layout>
   );

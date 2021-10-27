@@ -57,3 +57,7 @@ html {
   background-color: var(--dark-gray);
   color: var(--black);
 }
+
+.text-link {
+  opacity: 0.5;
+}

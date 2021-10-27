@@ -14,7 +14,9 @@ export default function Page() {
       </Helmet>
       <Section>
         <h2>La page demandée n'existe&nbsp;pas.</h2>→ Retour à la&nbsp;
-        <Link to="/">page d'accueil</Link>
+        <Link className="text-link" to="/">
+          page d'accueil
+        </Link>
       </Section>
     </Layout>
   );

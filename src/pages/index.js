@@ -104,7 +104,10 @@ export default function Page({ data }) {
           <div>Aux 1000 Feuilles SA</div>
           <div>Grand'Rue 36, 1530 Payerne</div>
           <div>
-            tel. <a href="tel:+41266602224">026 660 22 24</a>
+            tel.{" "}
+            <a className="text-link" href="tel:+41266602224">
+              026 660 22 24
+            </a>
           </div>
         </address>
         <iframe

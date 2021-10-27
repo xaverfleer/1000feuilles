@@ -78,7 +78,11 @@ export default function Page({ data }) {
         <h2>Marché en ligne</h2>
         <p>
           Trouovez nos articles en ligne au sur le{" "}
-          <a href="https://marche-broyard.ch/" alt="Marché Broyard">
+          <a
+            className="text-link"
+            href="https://marche-broyard.ch/"
+            alt="Marché Broyard"
+          >
             Marché Broyard
           </a>
           .
