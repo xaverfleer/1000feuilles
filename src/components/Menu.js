@@ -29,9 +29,13 @@ export default function Menu() {
         <div className={styles.menu__entry}>Produits</div>
         <div className={styles.menu__entry}>Contact</div>
       </aside>
-      <i className={`menu-btn ${styles.menuBtn}`} onClick={toggleMenu}>
+      <button
+        className={`menu-btn ${styles.menuBtn}`}
+        onClick={toggleMenu}
+        onKeyDown={handleEnterKey}
+      >
         Menu
-      </i>
+      </button>
     </>
   );
 
