@@ -1,9 +1,9 @@
+- check warnings
+- add message submitted page
 - remove liens utiles from /index
-- add contact form JS
 - add page title attribute
 - fix opening of menu in firefox-ios
 - ---- fold ----
-- use TypeScript
 - photos du magasin
 - services:
   - apéro dînatoire
@@ -23,3 +23,5 @@
 - add component ButtonPrimary
 - add gallery to /produits
 - fix Content Security Policy warnings
+- use async functions in netlify functions
+- use TypeScript

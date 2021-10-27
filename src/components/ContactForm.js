@@ -2,6 +2,8 @@ import React from "react";
 
 import * as styles from "./ContactForm.module.css";
 
+import { navigate } from "gatsby";
+
 const contactEmail = "xaver.fleer+aux1000feuilles@gmail.com";
 
 export default function ContactForm() {
@@ -59,6 +61,14 @@ function handleSubmit(event) {
   event.preventDefault();
   const formElem = event.currentTarget;
   const payload = getPayload(formElem);
+
+  fetch(`/.netlify/functions/sendMessage`, {
+    body: payload,
+    headers: { "Content-type": "application/json" },
+    method: "POST",
+  }).then((response) =>
+    response.ok ? handleSuccess(formElem) : handleError()
+  );
 }
 
 function getPayload(formElem) {
@@ -72,4 +82,15 @@ function getFormData(formElem) {
     .map(({ name, value }) => ({ name, value }))
     .filter(({ name }) => name !== "submit")
     .reduce((acc, { name, value }) => ({ ...acc, [name]: value }), {});
+}
+
+function handleError() {
+  alert(
+    `Impossible d'envoyer le message.\nVeuillez réessayer plus tard ou me contacter à ${contactEmail}.`
+  );
+}
+
+function handleSuccess(formElem) {
+  formElem.reset();
+  navigate("/message-envoye/");
 }
