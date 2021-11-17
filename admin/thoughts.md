@@ -1,4 +1,10 @@
-# What should be on the site
+# 2021-11-09
+
+#
+
+# 2021-10-19
+
+## What should be on the site
 
 - contact formulary
 - links to fb, insta, etc.
@@ -8,13 +14,13 @@
 - discounts / special events
 - french language
 
-# not on the page
+## not on the page
 
 - online orders
 - other languages
 - lots of content: blog, etc.
 
-# design
+## design
 
 - type of website
   - tabs, as there will be a lot of content
@@ -28,7 +34,7 @@
     - https://hiltl.ch/ (too wild)
     - https://www.jeanfrancoisbury.com/ (too gourmet, good for inspiration)
 
-# landing page
+## landing page
 
 - elements
   - nos produits
