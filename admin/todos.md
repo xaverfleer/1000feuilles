@@ -23,6 +23,17 @@
 # I need from Graziella
 
 - discuss pricing:
+  - 5000 + 200 / ans
 - Photos du magasin
+- Photos de simon
 - Photos de l'équipe
 - vacances, jours fériés
+
+- design bébé paysan
+- pas ouff
+- solange aime pas les sites longs
+- ça fait mcdonald
+
+- "nos services" -> "Sur commande"
+- "venez nous trouver" <- change la photo avec une photo du magasin
+-
