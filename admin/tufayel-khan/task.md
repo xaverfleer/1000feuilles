@@ -1,6 +1,7 @@
 # general
 
 - Design 1 landing page
+- Desktop and mobile design
 
 # The current website
 
