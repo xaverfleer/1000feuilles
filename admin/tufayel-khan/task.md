@@ -6,7 +6,7 @@
 
 - Link: https://aux1000feuilles.ch/
 
-# Websites the bakery owner likes:
+# Websites the bakery owner likes
 
 - https://www.ackermannartisan.swiss/
 - https://www.confiserieboillat.ch/
@@ -43,13 +43,13 @@
 
 info: This section will be updated quite often by the bakery
 
-- title: Nouveauté: Macarons
+- section title: Nouveauté : Macarons
 - image: https://github.com/xaverfleer/1000feuilles/blob/main/admin/tufayel-khan/images/macaron.jpg (or use another photo if you don't like it)
 - text: Petit cadeau pour vos proches : Macarons à base de farine d'amande et de meringue.
 
 ## additional content 02: section with 3 entries
 
-title: "Sur commande"
+- section title: "Sur commande"
 
 ### entry 01
 
