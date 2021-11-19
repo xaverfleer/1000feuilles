@@ -24,7 +24,7 @@
 
 ## To improve compared to design 01
 
-- The bakery is super high quality. The website should look like this: luxurious. (design-01 looks cheap)
+- The bakery is super high quality. The website should look like this: luxurious. (design 01 looks cheap)
 - Make opening hours more present (e.g. bigger, e.g. move further to the top, you are free to find a good solution)
 
 # New website content
