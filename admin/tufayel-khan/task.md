@@ -2,6 +2,8 @@
 
 - Design 1 landing page
 - Desktop and mobile design
+- logo: https://github.com/xaverfleer/1000feuilles/blob/main/admin/tufayel-khan/images/logo-blue-bar.png
+- colors: try to use blue colors similar to the logo
 
 # The current website
 
