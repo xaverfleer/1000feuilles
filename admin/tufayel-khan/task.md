@@ -77,8 +77,6 @@ info: This section will be updated quite often by the bakery
 
 - Similar to form in https://aux1000feuilles.netlify.app
 
-# text
-
 # resources
 
 - own images (from the bakery)
