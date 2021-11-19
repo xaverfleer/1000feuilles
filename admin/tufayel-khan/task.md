@@ -33,7 +33,7 @@
 
 - same content as on aux1000feuilles.ch
 - note: you can re-order the content as you prefer it to be. You have complete freedom.
-- note: you can add or remove content, if it makes sens
+- note: you can add or remove content, if it makes sense
 
 ## content to change compared to aux1000feuilles.ch
 
