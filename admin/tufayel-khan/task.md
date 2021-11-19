@@ -53,24 +53,24 @@ title: "Sur commande"
 
 ### entry 01
 
-title: Gâteau de marriage
-image: image of a wedding cake
-text: Nous sommes heureux de livrer des gâteaux à votre mariage. Appelez nous pour les détails.
-call-to-action label: Contactez nous
+- title: Gâteau de marriage
+- image: image of a wedding cake
+- text: Nous sommes heureux de livrer des gâteaux à votre mariage. Appelez nous pour les détails.
+- call-to-action label: Contactez nous
 
 ### entry 02
 
-title: Croissants
-image: image of a croissant
-text: Des croissants pour votre anniversaire ? Appelez-nous pour préparer suffisamment de croissants pour toute votre équipe de travail.
-call-to-action label: Contactez nous
+- title: Croissants
+- image: image of a croissant
+- text: Des croissants pour votre anniversaire ? Appelez-nous pour préparer suffisamment de croissants pour toute votre équipe de travail.
+- call-to-action label: Contactez nous
 
 ### entry 03
 
-title: Apéros
-image: image of an apero
-text: Des appéritifs sucrés et salés pour votre événement. Nous sommes heureux de livrer à votre événement
-call-to-action label: Contactez nous
+- title: Apéros
+- image: image of an apero
+- text: Des appéritifs sucrés et salés pour votre événement. Nous sommes heureux de livrer à votre événement
+- call-to-action label: Contactez nous
 
 ## additional content 03: contact form
 
