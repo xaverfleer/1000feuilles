@@ -43,7 +43,7 @@
 
 info: This section will be updated quite often by the bakery
 
-- title: Nouveautés
+- title: Nouveauté: Macarons
 - image: https://github.com/xaverfleer/1000feuilles/blob/main/admin/tufayel-khan/images/macaron.jpg (or use another photo if you don't like it)
 - text: Petit cadeau pour vos proches : Macarons à base de farine d'amande et de meringue.
 
