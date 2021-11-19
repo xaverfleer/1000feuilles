@@ -6,14 +6,6 @@
 
 - Link: https://aux1000feuilles.ch/
 
-# Design 01 (previous design)
-
-- Link: https://github.com/xaverfleer/1000feuilles/blob/main/admin/tufayel-khan/images/design-01.jpg
-- Well done in design-01: The logo is super present
-- Well done in design-01: The content of the website is more or less ok.
-- To improve compared to design-01: The bakery is super high quality. The website should look like this: luxurious. (design-01 looks cheap)
-- To improve compared to design-01: Make opening hours more present (e.g. bigger, e.g. move further to the top, you are free to find a good solution)
-
 # Websites the bakery owner likes:
 
 - https://www.ackermannartisan.swiss/
@@ -21,14 +13,29 @@
 - https://moutarlier.ch/
 - https://www.lenotre.com
 
-# content
+# Design 01 (previous design)
+
+- Link: https://github.com/xaverfleer/1000feuilles/blob/main/admin/tufayel-khan/images/design-01.jpg
+
+## Well done in design 01
+
+- The logo is super present
+- The content of the website is more or less ok.
+
+## To improve compared to design 01
+
+- The bakery is super high quality. The website should look like this: luxurious. (design-01 looks cheap)
+- Make opening hours more present (e.g. bigger, e.g. move further to the top, you are free to find a good solution)
+
+# New website content
 
 ## basic content
 
 - same content as on aux1000feuilles.ch
-- note: you can reorder the content as you prefer it to be. You have complete freedom.
+- note: you can re-order the content as you prefer it to be. You have complete freedom.
+- note: you can add or remove content, if it makes sens
 
-## content to change
+## content to change compared to aux1000feuilles.ch
 
 - in section "Venez nous trouver" use this photo: https://github.com/xaverfleer/1000feuilles/blob/main/admin/tufayel-khan/images/exterieur.jpg
 
